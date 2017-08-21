@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Widget - Suplementos comerciales </title>
+
+    <style>
+        body { margin: 0; }
+        a { color: #333; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        a:active, a:hover, a:focus { outline: 0; }
+        figure {  line-height: .7;  margin: 0;  position: relative;}
+        h1, h2, h3, h4, h5, h6 {  font-weight: normal;  margin: 0;}
+        ul, ol { list-style: none; margin: 0; padding: 0; }
+
+        .flow-sanluis .flow-detail .flow-category { font: bold 16px "ChronicleDisplaySemibold"; line-height: 18px; margin-bottom: 8px; padding: 8px 0; position: relative; margin-top: 0; text-transform: uppercase;  }
+        .flow-sanluis .flow-detail .flow-category::before { border-bottom: 1px solid #0c7eb2; content: ""; display: block; height: 1px; left: 0; overflow: hidden; position: absolute; width: 25px; }
+        .flow-sanluis .flow-detail .flow-category::after { border-bottom: 1px solid #0c7eb2; content: ""; display: block; height: 1px; left: 0; overflow: hidden; position: absolute; width: 25px; }
+        .flow-sanluis .flow-detail .flow-category::before { top: 0; }
+        .flow-sanluis .flow-detail .flow-category::after { bottom: 0; }
+        .flow-sanluis .flow-detail .flow-category a { display: inline-block; color: #0c7eb2; }
+
+        .flow-sanluis .flow-detail .flow-category > span { display: block; height: 1px; left: 0; overflow: hidden; position: absolute; width: 25px; }
+        .flow-sanluis .flow-detail .flow-category .line-top { top: 0; }
+        .flow-sanluis .flow-detail .flow-category .line-bottom { bottom: 0; }
+
+
+
+        .share-flow { bottom: 10px; position: absolute; right: 14px; }
+        .share-flow .share-item { float: left; margin-left: 6px; }
+        .share-flow .share-link { background-color: #fff; border-radius: 50%; border: 1px solid #d5e1e1; color: #d5e1e1; display: block; height: 28px; text-align: center; width: 28px; }
+        .share-flow .share-link:hover { text-decoration: none; }
+        .share-flow .share-link.link-wa { display: none; }
+        .share-flow .share-link i img { height: 15px; margin-top: 7px; }
+
+        .box-318,.box-636{float:left}
+        .box-318{height:352px;width:318px}
+        .box-636{width:636px}
+        .flow-sanluis{height:374px;width:318px}
+        .flow-sanluis .flow{margin:0 auto;padding-top:13px;width:274px}
+        .flow-sanluis .flow-image{height:157px}
+        .flow-sanluis .flow-image img { width: 100%; }
+        .flow-sanluis .flow-detail{min-height:178px;position:relative}
+        .flow-sanluis .flow-title{display:block;display:-webkit-box;max-height:75.6px; line-height:1.2;-webkit-line-clamp:3;overflow:hidden; 
+          font: bold 21px "ChronicleDisplayBold"; }
+
+        @-moz-document url-prefix(){.flow-sanluis .flow-title{overflow:hidden;position:relative}
+
+        .flow-sanluis .flow-title:before{bottom:0;position:absolute;right:0;float:right;content:'';margin-left:-3rem;width:3rem}
+        .flow-sanluis .flow-title:after{content:'';position:absolute;height:50px;width:100%;z-index:1}}
+        .flow-sanluis .flow-author{bottom:10px; color: #979797;  font-size: 10px;  position: absolute;  text-transform: uppercase;     background: #0c7eb2;  padding: 10px;}
+        .flow-sanluis .flow-author a{color: white}
+        .flow-sanluis .share-flow{bottom:-13px;z-index:1}
+        .flow-sanluis .v-flow{padding-top:0;width:100%}
+        .flow-sanluis .v-flow .share-flow{bottom:10px;right:10px}
+        .flow-sanluis .v-flow.v-flow-top .gradient{height:280px}
+        .flow-sanluis .v-flow.v-flow-top .media-type{bottom:15px;right:15px}
+        .flow-sanluis .v-flow.v-flow-top .flow-detail{left:0}
+        .flow-sanluis .flow-no-image{width:auto}
+        .flow-sanluis .flow-no-image .flow-title{display:block;display:-webkit-box;max-height:182.4px;font-size:38px;line-height:1.2;-webkit-line-clamp:4;overflow:hidden}
+
+        @-moz-document url-prefix(){.flow-sanluis .flow-no-image .flow-title{overflow:hidden;position:relative}
+
+    </style>
+
+</head>
+<body>
+    
+  <div class="flow-sanluis">
+      
+  </div>
+  <script src="js/bundle.js"></script>
+</body>
+</html>
