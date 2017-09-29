@@ -56,7 +56,7 @@
                 this.getJson( "http://archivo.elcomercio.pe/xalokjson/destacadafulbiteros?last=" + Date.now(), function ( n ) {
                     var e = JSON.parse( n.response );
                     let t = `<article class="flow">
-                                <figure class="flow-image"><a href="http://depor.com/especial/adidas" target="_blank" class="flow-image-link">
+                                <figure class="flow-image"><a href="http://depor.com/especial/adidas?utm_source=depor&utm_medium=widget-depor&utm_campaign=especial-adidas" target="_blank" class="flow-image-link">
                                     <picture>
                                         <img data-type="src" src="${e.imagen}"
                                              alt="${e.titulo}" class="ui-lazy">
@@ -66,7 +66,7 @@
                                     <div class="flow-data">
                                         <h3 class="flow-category">
                                             <span>
-                                            <a href="http://depor.com/especial/adidas" target="_blank"> DEL ESTADIO A LA CALLE </a>
+                                            <a href="http://depor.com/especial/adidas?utm_source=depor&utm_medium=widget-depor&utm_campaign=especial-adidas" target="_blank"> DEL ESTADIO A LA CALLE </a>
                                             </span>
                                         </h3>
                                     </div>

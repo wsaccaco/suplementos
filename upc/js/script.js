@@ -58,6 +58,13 @@
                     let imagen = e.imagen.substr(0, e.imagen.lastIndexOf('.')).concat('/252x142.jpg');
                     let t = `<article class="flow">
                                 <div class="flow-detail">
+                                    <div class="flow-data">
+                                        <h3 class="flow-category">
+                                            <a href="http://elcomercio.pe/especial/zona-ejecutiva?utm_source=elcomercio&amp;utm_medium=Widget-UPC&amp;utm_campaign=ZONA-EJECUTIVA" target="_blank">
+                                                <span> Zona Ejecutiva </span>
+                                            </a>
+                                        </h3>
+                                    </div>
                                     <h2 class="flow-title" id="NotaTitulo">
                                         <a href="${e.url}?utm_source=elcomercio&amp;utm_medium=Widget-UPC&amp;utm_campaign=ZONA-EJECUTIVA" title="${e.titulo}" target="_blank">
                                             ${e.titulo}
